@@ -40,11 +40,6 @@
     return json_encode($medicine_data, JSON_UNESCAPED_UNICODE);
   }
 
-
-  // Testando resultado:
-  // terminal: php -S localhost:8000
-  // browser: http://localhost:8000
-
   // echo '<pre>';
   // print_r(getMedicineData());
   // echo '</pre>';
